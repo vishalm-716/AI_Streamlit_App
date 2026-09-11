@@ -1,7 +1,6 @@
 import streamlit as st
 st.title("AI-enabled Web Application")
-st.write("Welcome to the AI-enabled Web Application deployed using Streamlit Community
-Cloud.")
+st.write("Welcome to the AI-enabled Web Application deployed using Streamlit Community Cloud.")
 32
 name = st.text_input("Enter your name")
 if st.button("Submit"):
